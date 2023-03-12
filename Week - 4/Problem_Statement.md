@@ -1,3 +1,7 @@
+# Calculator
+
+**Problem Statement**
+
 Create a public class Calculator. Define an overloaded method named "add" that takes two inputs for i) int-int addition ii) float-float addition iii) float-int addition iv) string - string concatenation Note: Define only 3 overloaded methods for the above said operations. You must also create an overloaded method named "round" that takes in 1 argument(float) and return the nearest integer value. The other version of "round" takes two arguments, the number(float) and a boolean x, which rounds up a number to an integer when True and rounds down when it is false.
 
 
