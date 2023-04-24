@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Welcome</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/createRoom" method="post">
+            <div class="file-container">
+                <label for="nickname"><b>Enter Nickname : </b></label>
+                <input type="text" placeholder="Enter Nickname" name="nickname" required>
+                <br>
+                <br>
+                <input type="submit" value = "Create Room" />
+            </div>
+        </form>
+        
+        <form action="/joinRoom" method="post">
+            <div class="container">
+                <label for="nickname"><b>Enter Nickname : </b></label>
+                <input type="text" placeholder="Enter Nickname" name="nickname" required>
+                <br>
+                <input type="text" placeholder="Enter room link" name="link" required>
+                <br>
+                <input type="submit" value = "Join Room" />
+            </div>
+        </form>
+    </body>
+</html>
