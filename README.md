@@ -25,3 +25,6 @@ Calculator
 
 ## Lab - 8 
 MultiThreading
+
+## Lab - 9&10
+Design Patterns
